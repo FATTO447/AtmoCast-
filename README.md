@@ -24,9 +24,10 @@ Model Type: [e.g., RandomForestClassifier / XGBoost / Regression]
 Features Used: Temperature, Humidity, Wind Speed, Cloud Cover, Precipitation, Visibility 
 Adding : Weekends , holidays , seasons , month 
 Target / Output: Activity suitability labels tailored to weather types, such as:
-categoties : clear/sunny summer days
-             cloudy days
-            rainy or extreme weather conditions
+categoties : 
+clear/sunny summer days
+cloudy days
+rainy or extreme weather conditions
 
 Workflow:
 Historical weather data is preprocessed and features engineered.
@@ -47,12 +48,12 @@ FastAPI loads the model via Joblib and returns predictions.
 Streamlit displays recommendations dynamically.
 
 💻 Technology Stack
-Data Analysis: Python (Pandas, NumPy, Scikit-learn) 
-Backend : Java , framework(spring) 
-Data Visualization: Matplotlib, Seaborn
-Frontend Prototype: Streamlit, HTML, CSS, JavaScript
-API: FastAPI
-Model Serialization: Joblib
+Data Analysis: Python (Pandas, NumPy, Scikit-learn) , 
+Backend : Java , framework(spring)  ,
+Data Visualization: Matplotlib, Seaborn , 
+Frontend Prototype: Streamlit, HTML, CSS, JavaScript ,
+API: FastAPI ,
+Model Serialization: Joblib ,
 Design: Figma 
 
 ⚙ Setup and Installation
